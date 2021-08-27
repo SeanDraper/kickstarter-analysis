@@ -14,19 +14,19 @@ We were given a large dataset of thousands of Kickstarter campaigns. Since Louis
 
 ### Analysis of Outcomes Based on Launch Date
 
+![Theater_Outcomes_vs_Launch](resources/Theater_Outcomes_vs_Launch.png)
+
 [Link to Kickstarter Analysis.](https://github.com/SeanDraper/kickstarter-analysis/blob/main/Kickstarter_Challenge.xlsx) The Theater Outcomes by Launch Date sheet holds relevant data for this section.
 
 The first analysis for Louise was to determine the relationship between launch date and the outcome of each Kickstarter. We created a pivot table of all the Kickstarter data with filters for parent category and years, the month each Kickstarter was created, and then displayed the outcomes successful, failed, or canceled for each month. Using this pivot table, we created a pivot chart and specifically a stacked line chart to help Louise visualize this data. Using this chart, you can easily see how successful campaigns were based on the month they were created.
 
-![Theater_Outcomes_vs_Launch](resources/Theater_Outcomes_vs_Launch.png)
-
 ### Analysis of Outcomes Based on Goals
+
+![Outcomes_vs_Goals](resources/Outcomes_vs_Goals.png)
 
 [Link to Kickstarter Analysis.](https://github.com/SeanDraper/kickstarter-analysis/blob/main/Kickstarter_Challenge.xlsx) The Outcomes Based on Goals sheet holds relevant data for this section.
 
 We then ran analysis looking at how the goal amount for each Kickstarter effected its outcome. We used COUNTIFS formulas to pull specific data from the main Kickstarter dataset to only include data for the specific goal range we were looking for along with filtering for plays. We then displayed how many of those projects succeeded, failed, or were canceled along with percentage breakdowns for each of the results. We then created a line chart to display the percentage of successful, failed, and cancelled Kickstarters based on each goal range.
-
-![Outcomes_vs_Goals](resources/Outcomes_vs_Goals.png)
 
 ### Challenges and Difficulties Encountered
 
